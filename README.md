@@ -5,3 +5,9 @@ Repositório criado para compartilhar os Desafios de Código e de Projeto do Ora
 O primeiro desafio foi fazer a criação deste repositório e compartilhar junto à DIO. Sendo assim, criei o repositório aqui e fiz o repositório clone pelo GIT em uma pasta em meu próprio computador, usando o comando "git clone". 
 
 Posteriormente, editei esse mesmo README pelo Typora e fiz o "git add" para colocá-lo em stage e o "git commit" para finalmente atualizar no repositório do GitHub.
+
+
+
+## 2. Javascript
+
+Comecei a fazer alguns pequenos exercícios em Javascript, todos relacionados ao Bootcamp anteriormente citado. Em breve irei iniciar um projeto em JS e React.
