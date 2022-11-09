@@ -1,17 +1,30 @@
-const altura = 1.70;
-const peso = 70.00;
-const imc = peso / Math.pow(altura, 2);
+//Refazendo o mesmo exercício da Aula 4 (aula4.js), dessa vez com funções e/ou procedimentos
 
-console.log('IMC é: ' + imc.toFixed(2));
-
-if (imc < 18.5) {
-    console.log('Abaixo do peso');
-} else if (imc >= 18.5 && imc < 25) {
-    console.log('Peso normal');
-} else if (imc >= 25 && imc < 30) {
-    console.log('Acima do peso');
-} else if (imc >= 30 && imc < 40) {
-    console.log('Obeso');
-} else {
-    console.log('Obesidade Grave');
+function calculoImc(peso, altura) {
+    return peso / Math.pow(altura, 2);
 }
+
+function grauImc(imc) {
+    if (imc < 18.5) {
+        return 'Abaixo do peso';
+    } else if (imc >= 18.5 && imc < 25) {
+        return 'Peso normal';
+    } else if (imc >= 25 && imc < 30) {
+        return 'Acima do peso';
+    } else if (imc >= 30 && imc < 40) {
+        return 'Obeso';
+    } else {
+        return 'Obesidade Grave';
+    }
+}
+
+//Main. Função imediatamente invocada.
+(function () {
+    const altura = 1.79;
+    const peso = 85.00;
+    let imc = calculoImc(peso, altura);
+
+    calculoImc();
+    console.log('O imc é: ' + imc);
+    console.log(grauImc(imc));
+})();
