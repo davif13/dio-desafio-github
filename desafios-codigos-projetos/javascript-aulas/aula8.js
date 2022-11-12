@@ -9,10 +9,10 @@ const precoProduto = 100;
 const formaPagamento = 4;
 
 function aplicarDesconto(valor, desconto) {
-        return (valor - (valor * desconto / 100));
+    return (valor - (valor * desconto / 100));
 }
 
-function aplicarJuros(valor, juros){
+function aplicarJuros(valor, juros) {
     return (valor + (valor * juros / 100)).toFixed(2);
 }
 
