@@ -10,4 +10,4 @@ Posteriormente, editei esse mesmo README pelo Typora e fiz o "git add" para colo
 
 ## 2. Javascript
 
-Comecei a fazer alguns pequenos exercícios em Javascript, todos relacionados ao Bootcamp anteriormente citado. Em breve irei iniciar um projeto em JS e React.
+Comecei a fazer alguns pequenos exercícios em Javascript, todos relacionados ao Bootcamp anteriormente citado. Iniciei o projeto Pokedex (HTML/CSS/Javascript/React), presente na pasta Pokedex desse repositório.
