@@ -18,10 +18,12 @@ function convertPokemonToLi(pokemon) {
             <img src="${pokemon.photo}" 
             alt="${pokemon.name}" >
         </div>
+        <div>
+            <span class="weight">Weight: ${pokemon.weight}</span>
+            <span class="height">Height: ${pokemon.height}</span>
+        </div>
     </li>`
 }
-
-/* Fetch: Retornando uma promessa de resposta. O método then diz o que fazer após receber a promessa. */
 
 function loadPokemonItens(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
