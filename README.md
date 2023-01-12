@@ -10,4 +10,6 @@ Posteriormente, editei esse mesmo README pelo Typora e fiz o "git add" para colo
 
 ## 2. Javascript
 
-Comecei a fazer alguns pequenos exercícios em Javascript, todos relacionados ao Bootcamp anteriormente citado. Iniciei o projeto Pokedex (HTML/CSS/Javascript/React), presente na pasta Pokedex desse repositório.
+Comecei a fazer alguns pequenos exercícios em Javascript, todos relacionados ao Bootcamp anteriormente citado. Iniciei o projeto Pokedex (HTML/CSS/Javascript), presente na pasta Pokedex desse repositório.
+
+UPDATE: O projeto de Pokédex foi terminado e pode ser visualizado em sua respectiva pasta. Foi utilizado HTML, CSS e JavaScript para fazer a conexão com a PokéAPI e modificar o DOM.
