@@ -6,5 +6,12 @@ let elementos = [64, 137, -16, 43, 67, 81, -90, 212, 10, 75];
 
 let valor = 81;
 
+for (let i = 0; i < elementos.length; i++) {
+    if (elementos[i] === valor) {
+        console.log("O valor é " + elementos[i] + " e sua posição é " + i);
+    };
+    
+}
+
 //TODO: Retorne o valor do elemento no Array junto de sua respectiva posição.
 
